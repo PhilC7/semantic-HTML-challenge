@@ -8,6 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
+/* Changed all relevant '.header' class selectors to the semantic tag 'header' */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -25,6 +26,7 @@ header h1 .seo {
   color: #d9dcd6;
 }
 
+/* Changed all relevant '.header' selectors that targeted the navigational links to the semantic tag 'nav' */
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -70,12 +72,14 @@ p {
   margin-left: 25px;
 }
 
+/* Changed the'.content' class selector to the semantic tag 'main' */
 main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Changed the'.benefits' class selector to the semantic tag 'aside' */
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -189,6 +193,7 @@ aside {
   font-size: 36px;
 }
 
+/* Changed the'.footer' class selectors to the semantic tag 'footer' */
 footer {
   padding: 30px;
   clear: both;
